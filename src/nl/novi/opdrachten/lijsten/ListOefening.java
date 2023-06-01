@@ -31,6 +31,7 @@ public class ListOefening {
         checkClub(clubNames, "Cuddly Cannons");
 
         // Vraag 2: Maak een methode die de positie van de club in de lijst teruggeeft.
+        positieLijst(clubNames, "PSV");
 
         // Vraag 3: Maak een methode die de lijst alfabetisch sorteert. Wanneer Ajax niet op positie 1 staat, moeten de
         // clubs die voor Ajax staan verwijderd worden.
@@ -38,7 +39,7 @@ public class ListOefening {
         clubNames.add("AA Aachen");
         clubNames.add("AFC Amsterdam");
         clubNames.add("AFC");
-
+        alphabetic(clubNames);
 
         // Vraag 4: Kun je hetzelfde doen als hierboven, maar PSV moet dan laatste zijn.
         clubNames.add("Zlotty FC");
@@ -64,6 +65,15 @@ public class ListOefening {
                 System.out.println(name);
             }
         }
+
+    }
+    public static void positieLijst(List<String> clubName, String toAdd){
+        if (clubName.contains(toAdd)){
+            System.out.println(clubName.indexOf(toAdd) + " " + toAdd);
+        }
     }
 
+    public static void alphabetic(List<String> clubName) {
+        System.out.println(clubName);
+    }
 }
