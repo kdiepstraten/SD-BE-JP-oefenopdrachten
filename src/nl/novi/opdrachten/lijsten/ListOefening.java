@@ -35,7 +35,7 @@ public class ListOefening {
         clubNames.add("AA Aachen");
         clubNames.add("AFC Amsterdam");
         clubNames.add("AFC");
-
+test test
 
         // Vraag 4: Kun je hetzelfde doen als hierboven, maar PSV moet dan laatste zijn.
         clubNames.add("Zlotty FC");
